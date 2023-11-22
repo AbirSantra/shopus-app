@@ -4,15 +4,21 @@
 @tailwind utilities;
 
 @layer base {
-	html {
-		@apply scroll-smooth box-border;
-	}
+  html {
+    @apply box-border scroll-smooth;
+  }
 
-	body {
-		@apply font-Inter scroll-smooth ease-in-out duration-300;
-	}
+  body {
+    @apply scroll-smooth font-Inter duration-300 ease-in-out;
+  }
 
-	img {
-		@apply inline-block;
-	}
+  img {
+    @apply inline-block;
+  }
+}
+
+@layer utilities {
+  .fluid-px {
+    @apply px-4 sm:px-8 lg:px-16;
+  }
 }

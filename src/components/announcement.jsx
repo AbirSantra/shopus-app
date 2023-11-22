@@ -1,7 +1,11 @@
 import React from "react";
 
-const Announcement = () => {
-  return <div>Announcement</div>;
+const Announcement = ({ text }) => {
+  return (
+    <div className="fluid-px flex w-full items-center justify-center bg-orange-600 py-1 text-sm font-semibold text-white">
+      <p className="animate-pulse">{text}</p>
+    </div>
+  );
 };
 
 export default Announcement;

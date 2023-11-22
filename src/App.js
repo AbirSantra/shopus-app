@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
+import Homepage from "./pages/home-page";
 
 function App() {
   return (
     <div className="App">
-      Shopus
+      <Homepage />
     </div>
   );
 }
