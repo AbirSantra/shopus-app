@@ -4,7 +4,7 @@ import Logo from "../img/octopus.png";
 const Footer = () => {
   return (
     <footer className="section mt-16 flex w-full flex-col items-center justify-center border-t border-slate-200 bg-white">
-      <div className="section-content flex items-center justify-center py-20">
+      <div className="section-content flex items-center justify-center px-14 py-14">
         <div className="flex w-full items-start justify-between">
           <div className="flex flex-col items-start justify-start gap-4">
             <div className="flex items-center justify-center gap-2">
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex w-full items-center justify-center bg-orange-600 py-4 text-sm text-white">
+      <div className="flex w-full items-center justify-center bg-orange-600 py-2 text-sm text-white">
         Crafted with ❤️ by Team INCOGNI70
       </div>
     </footer>
