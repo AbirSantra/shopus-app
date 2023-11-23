@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import Announcement from "../components/announcement";
 import Slider from "../components/slider";
 import CategorySection from "../components/category-section";
+import BestDealsSection from "../components/best-deals-section";
 
 const Homepage = () => {
   return (
@@ -11,6 +12,7 @@ const Homepage = () => {
       <Navbar />
       <Slider />
       <CategorySection />
+      <BestDealsSection />
     </div>
   );
 };
