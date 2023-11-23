@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import InputField from "../components/ui/inputfield";
 import Logo from "../img/octopus.png";
+import googleLogo from "../img/google logo.png";
 
 const Authpage = () => {
   // to store the auth types
@@ -82,6 +83,14 @@ const Authpage = () => {
               ) : null}
               <button className=" w-full rounded-lg bg-orange-600 px-4 py-2 text-base font-semibold text-white duration-200 ease-in-out hover:bg-orange-700">
                 <p>{islogin ? "Sign in" : "Create account"}</p>
+              </button>
+              <button className="flex w-full items-center justify-center gap-4 rounded-md border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-500 outline-none duration-200 ease-in-out hover:border-orange-600">
+                <img
+                  src={googleLogo}
+                  className="flex h-4 w-4 items-center justify-center"
+                  alt="google sign in"
+                />
+                <p>Continue with Google</p>
               </button>
 
               <p className="mt-4 text-sm text-slate-400">
