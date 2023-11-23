@@ -4,6 +4,7 @@ import { FaChevronDown } from "react-icons/fa";
 import { BiSearch } from "react-icons/bi";
 import { FaRegUser } from "react-icons/fa6";
 import { MdOutlineShoppingCart } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const categories = [
@@ -69,10 +70,10 @@ const Navbar = () => {
           </button>
         </div>
         {/* Account */}
-        <div className="flex items-center justify-center gap-2">
+        <Link to={"/auth"} className="flex items-center justify-center gap-2">
           <FaRegUser className="text-orange-600" />
           <p className="text-sm font-semibold">Account</p>
-        </div>
+        </Link>
         {/* Cart */}
         <div className="flex items-center justify-center gap-2">
           <MdOutlineShoppingCart className="text-orange-600" />
