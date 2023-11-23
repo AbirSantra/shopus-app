@@ -21,4 +21,12 @@
   .fluid-px {
     @apply px-4 sm:px-8 lg:px-16;
   }
+
+  .section {
+    @apply flex w-full items-center justify-center;
+  }
+
+  .section-content {
+    @apply w-full max-w-[1440px];
+  }
 }

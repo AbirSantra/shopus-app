@@ -10,8 +10,8 @@ import "swiper/css/effect-fade";
 
 const Slider = () => {
   return (
-    <div className="flex w-full items-center justify-center">
-      <div className="w-full max-w-[1440px]">
+    <div className="section">
+      <div className="section-content">
         <div className="relative w-full select-none overflow-hidden rounded-xl">
           <Swiper
             modules={[Pagination, EffectFade, Autoplay]}
