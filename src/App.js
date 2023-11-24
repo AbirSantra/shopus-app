@@ -3,6 +3,7 @@ import Authpage from "./pages/auth-page";
 import Categorypage from "./pages/category-page";
 import Homepage from "./pages/home-page";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Productpage from "./pages/product-page";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/category/:category",
     element: <Categorypage />,
+  },
+  {
+    path: "/product/:productid",
+    element: <Productpage />,
   },
 ]);
 
