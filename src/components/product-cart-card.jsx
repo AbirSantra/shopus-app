@@ -27,7 +27,7 @@ const ProductCartCard = () => {
         </div>
       </div>
       {/* Price & Remove Button */}
-      <div className="ml-auto flex flex-col justify-between">
+      <div className="ml-auto flex flex-col items-end justify-between">
         <p className="text-lg font-semibold">$250.00</p>
         <p className="cursor-pointer font-semibold text-orange-600">Remove</p>
       </div>
