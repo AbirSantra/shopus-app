@@ -33,4 +33,8 @@
   .btn {
     @apply flex cursor-pointer items-center justify-center gap-4 rounded-lg bg-orange-600 px-8 py-4 font-medium text-white duration-300 ease-in-out hover:bg-orange-700;
   }
+
+  .btn-secondary {
+    @apply flex cursor-pointer items-center justify-center gap-4 rounded-lg border border-orange-600 px-8 py-4 font-medium text-orange-600 duration-300 ease-in-out hover:bg-orange-600 hover:text-white;
+  }
 }
