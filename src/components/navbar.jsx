@@ -75,13 +75,13 @@ const Navbar = () => {
           <p className="text-sm font-semibold">Account</p>
         </Link>
         {/* Cart */}
-        <div className="flex items-center justify-center gap-2">
-          <MdOutlineShoppingCart className="text-orange-600" />
+        <Link to={"/cart"} className="flex items-center justify-center gap-2">
+          <MdOutlineShoppingCart size={20} className="text-orange-600" />
           <p className="text-sm font-semibold">Cart</p>
           <span className="flex h-6 w-6 items-center justify-center rounded-full bg-orange-600 p-2 text-sm font-medium text-white">
             4
           </span>
-        </div>
+        </Link>
       </div>
     </nav>
   );
