@@ -6,6 +6,7 @@ import productImage from "../img/airdopes.png";
 import { FaStar } from "react-icons/fa";
 import { MdOutlineAdd } from "react-icons/md";
 import { MdOutlineHorizontalRule } from "react-icons/md";
+import { MdOutlineShoppingCart } from "react-icons/md";
 
 const Productpage = () => {
   return (
@@ -13,14 +14,14 @@ const Productpage = () => {
       <Announcement text={"Sample announcement!"} />
       <Navbar />
       <div className="section fluid-px mt-16">
-        <div className="section-content flex flex-col gap-8">
+        <div className="section-content flex flex-col  gap-8">
           <div className="grid grid-cols-2 gap-8">
             {/* Product Image */}
             <div className="rounded-lg border-[1px] border-slate-200 duration-300 ease-in-out hover:border-orange-600">
               <img className="w-full" src={productImage} alt="product" />
             </div>
             {/* Product Details */}
-            <div className="flex flex-col gap-16 p-8">
+            <div className="flex flex-col justify-center gap-16 p-8">
               <div className="flex flex-col gap-1">
                 <p className="text-5xl font-bold">Product Name</p>
                 <p className="text-xl font-medium">Company Name</p>
@@ -61,6 +62,10 @@ const Productpage = () => {
                   voluptate voluptas magnam, quam aperiam odio? Enim, placeat
                   ipsum!
                 </p>
+              </div>
+              <div className="btn w-fit">
+                <MdOutlineShoppingCart size={20} />
+                <p>Add to Cart</p>
               </div>
             </div>
           </div>
